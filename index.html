@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--This imports vegalite-->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  <!--Links to the css file-->
+  <link rel="stylesheet" type="text/css" href="style/styles.css" media="all">
+  <!--Imports the font used-->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--Applies the css properties of middle to the whole div-->
+<div class ="middle">
+  <h1>Internet Population Across the World</h1>
+  <p>The internet has become an integral part of society for quite some time now. The following visualisations use data from 2018 and show how much of an impact the internet has made so far</p>
+<h2>Percentage of Country Population that use the Internet</h2>
+<!--Inserts the visualisation to this part-->
+<div id="geomap"></div>
+<p>More developed countries tend to have higher internet user percentages</p>
+
+<h2>Proportion of internet users to the world</h2>
+<p>Almost half of the world's population uses the internet</p>
+<div id="piechart"></div>
+
+<div id="bar"></div>
+
+</div>
+<!--This script allows the vegalite visualisations to load on the webpage-->
+<script>
+var vg_1 = "idioms/geomap.json";
+  vegaEmbed('#geomap', vg_1).then(function(result) {
+  }).catch(console.error);
+
+  var vg_2 = "idioms/piechart.json";
+  vegaEmbed('#piechart', vg_2).then(function(result) {
+  }).catch(console.error);
+
+  var vg_3 = "idioms/bar.json";
+  vegaEmbed('#bar', vg_3).then(function(result) {
+  }).catch(console.error);
+</script>
+
+</body>
+</html>
