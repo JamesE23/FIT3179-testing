@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    
+    "width": 1500,
     "height": 500,
     "data": {"url": "https://raw.githubusercontent.com/JamesE23/FIT3179-Assignment2-James/main/data/InternetUsersEdit.csv"},
     "layer": [{
