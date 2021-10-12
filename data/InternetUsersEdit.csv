@@ -1,5 +1,5 @@
-﻿Country,InternetUsers,Population,RankPop,Percentage,RankIntu,InternetTotal,PopulationTotal
-China,"765,367,947","1,409,517,397",1,54.30,116,"3,663,346,115","7,544,382,890"
+﻿Country,InternetUsers,Population,RankPop,Percentage,RankIntu
+China,"765,367,947","1,409,517,397",1,54.30,116
 India,"461,347,554","1,339,180,127",2,34.45,145
 United States of America,"244,090,854","324,459,463",3,75.23,68
 Brazil,"141,206,801","209,288,278",4,67.47,83
